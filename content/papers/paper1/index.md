@@ -1,6 +1,6 @@
 ---
 title: "Where does the Sun rise? A general equation for the Sun's azimuth " 
-date: 2026-06-19
+date: 2026-05-19
 author: ["Akrit Behera"]
 description: "This paper was written by akrit behera indipendently, Published in the helius.pages.dev, 2025." 
 summary: "A general equation for the Sun's azimuth — built on NOAA's verified solar-
