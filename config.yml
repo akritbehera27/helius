@@ -46,7 +46,7 @@ params:
     profileMode:
           enabled: true
           title: Akrit Behera
-          subtitle: "I'm a high school student driven by immense curiosity for science and technology. I'm working towards my passion by exploring cutting edge innovation and grinding the boundaries of what's possible. My goal isn't just to learn but also to create. Whether it's through experimenting with new ideas or collaborating with others who share my vision, I'm committed to making a tangible impact on the world.The next groundbreaking discovery could come from anywhere even a high school classroom"
+          subtitle: "motivated by a deep interest in science and technology. These are my conclusions on a handful of the subjects that truly piqued my interest."
           buttons:
             - name: Papers
               url: papers/
