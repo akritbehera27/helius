@@ -1,5 +1,5 @@
 ---
-title: "Where does the Sun rise? A general equation for the Sun's azimuth " 
+title: "Where does the Sun rise from ?" 
 date: 2026-05-19
 author: ["Akrit Behera"]
 description: "This paper was written by akrit behera indipendently, Published in the helius.pages.dev, 2025." 
@@ -27,20 +27,25 @@ solar-position equations published by the U.S. National Oceanic and Atmospheric 
 them with nothing more than the syllabus tools of trigonometry, inverse trigonometric functions and
 one spherical-triangle identity. The reduction produces a single general equation for the Sun’s azimuth,
 
-𝐴 = 180∘ + tanି ଵ [sin𝐻 cos𝐻 sin𝜙 − tan𝛿 cos𝜙⁄ ],
+
+$$
+A = 180^\circ + \tan^{-1}
+\left[
+\frac{\sin H}
+{\cos H \sin\phi - \tan\delta \cos\phi}
+\right].
+$$
 
 which needs no separate morning/afternoon cases and is valid at every hour, in every season. Setting the
-zenith distance to the standard sunrise value 𝑧଴ = 90.833∘ gives the classroom sunrise formula 𝐴଴ =
-cosି ଵ [(sin𝛿 − sin𝜙cos𝑧଴)/(cos𝜙sin𝑧଴)]. Every formula is validated against NOAA’s own operational
-algorithm, which we execute exactly as published: our transcription agrees to machine precision, and
-the simplified model reproduces the sunrise azimuth for all 365 days of 2025 with a maximum error of
-1.16∘ (rms 0.57∘ ) and sunrise times to within 2.0 minutes. An independent check against a public
-ephemeris service agrees to 0.14∘, and reproduces its live Sun direction at the time of writing. We then
-answer the two opening questions for a 22 km radius region centred on 23.169753993380713∘ N,
-82.36029982215409∘ E (Duman Hill, near Chirimiri, Khadganva tahsil, Manendragarh–Chirimiri–
-Bharatpur district, Chhattisgarh): the Sun rises between 64.0∘ (21 June) and 115.2∘ (21 December) — a
-swing of 51.3∘ — and within the entire 22 km disc the rising direction is constant to better than 0.09∘
-and the rising clock time to within 1.9 minutes, so one table serves the whole district. Nothing new is invented: every equation descends, step by step, from a published source, and each step is checked
-numerically
+zenith distance to the standard sunrise value $$
+z_0 = 90.833^\circ
+$$ gives the classroom sunrise formula $$
+A_0 = \cos^{-1}
+\left[
+\frac{\sin\delta - \sin\phi\cos z_0}
+{\cos\phi\sin z_0}
+\right].
+$$. Every formula is validated against NOAA’s own operational
+algorithm, which we execute exactly as published.
 
 ---
